@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+}
+
+main{
+    background-image: url(./img/fundo1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cabecalho{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    padding: 25px 80px;
+    background-color: #AB8053;
+    color: #E5E5E5 ;
+    box-shadow: 0px 0px 50px black;
+    z-index: 100;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+}
+
+#manager{
+    font-size: 26px;
+}
+
+#titulo{
+    font-size: 20px;
+    line-height: 1.3rem;
+}
+
+#cabecalho img{
+    height: 90px;
+}
+
+.sec1{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 80px 150px;
+    justify-content: center;
+    align-items: center;
+}
